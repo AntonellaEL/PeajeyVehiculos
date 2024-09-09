@@ -41,4 +41,8 @@ public class EstacionPeaje {
                 (vehiculo instanceof Camion ? ((Camion) vehiculo).getValorPeaje() : "Desconocido"))));
         }
     }
+
+    public Integer getValorTotal() {
+        return valorTotal;
+    }
 }
